@@ -1,15 +1,18 @@
 """
 List → Mutable (can add, remove, change items) — uses [ ]
 Tuple → Immutable (cannot change once created) — uses ( )
+
+List is a Dynamic
+Tuple is a Static
 """
 
 trip_summery = ("rapido","Coimbatore","railway station",500.00,"completed")
 
 # to find the index value
-# print(trip_summery[2])# railway station
+print(trip_summery[2])# railway station
 
 # to count the value
-# print(trip_summery.count("rapido"))# 1
+print(trip_summery.count("rapido"))# 1
 
 # Not methods, but built-in functions that work on tuples
 
@@ -34,6 +37,13 @@ print(type(list)) #<class 'list'>
 # allowed to modify coz it is a tuple
 list.append(6)
 print(list) #[9, 7, 5, 1, 4, 6]
+
+# iterate a tuple
+for i in n:
+    print(i)
+
+if 1 in n:
+    print("yes")
 
 
 
