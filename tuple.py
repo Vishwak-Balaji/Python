@@ -34,7 +34,7 @@ print(list) # [9, 7, 5, 1, 4] this is a list not Tuple
 print(type(list)) #<class 'list'>
 
 
-# allowed to modify coz it is a tuple
+# allowed to modify coz it is a list
 list.append(6)
 print(list) #[9, 7, 5, 1, 4, 6]
 

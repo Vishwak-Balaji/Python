@@ -14,8 +14,8 @@ artist = "ed sheeran"
 print(f"{song.title()} - {artist.title()}") #Shape Of You - Ed Sheeran - make first letter of the each word caps
 
 location = "Coimbatore"
-fixed_location = location.replace("Coimbatore","Chennai")
-print(fixed_location) # replace function
+location = location.replace("Coimbatore","Chennai")
+print(location) # replace function
 
 message = "your uber booking i is : UA0134. please ride safe"
 print(message.split(":")[1].split(".")[0].strip()) # print UA0134

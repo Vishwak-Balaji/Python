@@ -17,4 +17,19 @@ while correct_password != enter_password:
 print("Access granted...!")
 
 #==============================================================================================================
+num = int(input("Enter the number :"))
+for i in range(1,num+1):
+    for j in range(1,i+1):
+        print('* ' ,end= '')
+    print("\n")
+'''
+* 
 
+* * 
+
+* * * 
+
+* * * * 
+
+* * * * * 
+'''
