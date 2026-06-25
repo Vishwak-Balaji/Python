@@ -1,6 +1,6 @@
 # variables and data type
 
-a = "10"
+a = "110"
 b = "vishwak"
 isTrue = True
 c = 3.14
