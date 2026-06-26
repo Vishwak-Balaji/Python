@@ -1,7 +1,7 @@
 # variables and data type
 
 a = "110"
-b = "vishwak"
+b = "vishwak balaji T"
 isTrue = True
 c = 3.14
 d ='x'
